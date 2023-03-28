@@ -1,0 +1,15 @@
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\bin\Debug\net6.0\EJERCICIO_01_I01_V1.exe
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\bin\Debug\net6.0\EJERCICIO_01_I01_V1.deps.json
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\bin\Debug\net6.0\EJERCICIO_01_I01_V1.runtimeconfig.json
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\bin\Debug\net6.0\EJERCICIO_01_I01_V1.dll
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\bin\Debug\net6.0\EJERCICIO_01_I01_V1.pdb
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.csproj.AssemblyReference.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.AssemblyInfoInputs.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.AssemblyInfo.cs
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.dll
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\refint\EJERCICIO_01_I01_V1.dll
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.pdb
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\EJERCICIO_01_I01_V1.genruntimeconfig.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_01_I01_V1\obj\Debug\net6.0\ref\EJERCICIO_01_I01_V1.dll

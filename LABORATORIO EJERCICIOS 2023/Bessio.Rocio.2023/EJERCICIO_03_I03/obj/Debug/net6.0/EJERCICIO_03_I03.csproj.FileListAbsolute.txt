@@ -1,0 +1,15 @@
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\bin\Debug\net6.0\EJERCICIO_03_I03.exe
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\bin\Debug\net6.0\EJERCICIO_03_I03.deps.json
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\bin\Debug\net6.0\EJERCICIO_03_I03.runtimeconfig.json
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\bin\Debug\net6.0\EJERCICIO_03_I03.dll
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\bin\Debug\net6.0\EJERCICIO_03_I03.pdb
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.csproj.AssemblyReference.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.AssemblyInfoInputs.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.AssemblyInfo.cs
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.dll
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\refint\EJERCICIO_03_I03.dll
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.pdb
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\EJERCICIO_03_I03.genruntimeconfig.cache
+C:\Users\Rocio\Desktop\LABORATORIO EJERCICIOS\Bessio.Rocio.2023\EJERCICIO_03_I03\obj\Debug\net6.0\ref\EJERCICIO_03_I03.dll
