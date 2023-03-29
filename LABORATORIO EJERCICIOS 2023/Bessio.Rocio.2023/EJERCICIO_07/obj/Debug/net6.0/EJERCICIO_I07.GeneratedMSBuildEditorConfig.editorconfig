@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EJERCICIO_I07
+build_property.ProjectDir = C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\EJERCICIO_07\

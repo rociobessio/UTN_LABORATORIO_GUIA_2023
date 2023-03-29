@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rocio\\Desktop\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj": {}
+    "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rocio\\Desktop\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj": {
+    "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rocio\\Desktop\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj",
+        "projectUniqueName": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj",
         "projectName": "EJERCICIO_01_I01_V1",
-        "projectPath": "C:\\Users\\Rocio\\Desktop\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj",
+        "projectPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\EJERCICIO_01_I01_V1.csproj",
         "packagesPath": "C:\\Users\\Rocio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rocio\\Desktop\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\obj\\",
+        "outputPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERCICIO_01_I01_V1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rocio\\AppData\\Roaming\\NuGet\\NuGet.Config",
