@@ -121,7 +121,7 @@ namespace UNIDAD_02_ENTIDADES
             double auxAlt = Math.Pow(altura,2);
             double suma = auxBase + auxAlt;
             return Math.Sqrt(suma);//retorna la raiz cuadrada de un numero
-        }
+        } 
         #endregion
     }
 }

@@ -1,5 +1,4 @@
-﻿using UNIDAD_02_ENTIDADES;
-
+﻿using UNIDAD_02_ENTIDADES; 
 /*
                                            Consigna
 Crear una aplicación de consola que pida al usuario ingresar la base y la altura de un triángulo en centímetros.

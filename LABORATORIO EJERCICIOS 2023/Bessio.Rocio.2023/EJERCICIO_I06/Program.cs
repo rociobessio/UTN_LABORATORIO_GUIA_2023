@@ -3,15 +3,15 @@ using UNIDAD_02_ENTIDADES;
 
 /*
                                 Consigna
-Realizar una clase llamada CalculadoraDeArea que posea tres métodos de clase (estáticos) que realicen el cálculo del área que corresponda:
+    Realizar una clase llamada CalculadoraDeArea que posea tres métodos de clase (estáticos) que realicen el cálculo del área que corresponda:
 
-public double CalcularAreaCuadrado(double longitudLado) {}
+    public double CalcularAreaCuadrado(double longitudLado) {}
 
-public double CalcularAreaTriangulo(double base, double altura) {}
+    public double CalcularAreaTriangulo(double base, double altura) {}
 
-public double CalcularAreaCirculo(double radio) {}
+    public double CalcularAreaCirculo(double radio) {}
 
-El ingreso de los datos como la visualización se deberán realizar desde el método Main().
+    El ingreso de los datos como la visualización se deberán realizar desde el método Main().
 */
 
 namespace EJERCICIO_I06
@@ -21,7 +21,6 @@ namespace EJERCICIO_I06
         static void Main(string[] args)
         {
             int opcion = 0;
-            double resultado = 0;
             double longitud = 0;
             double baseA = 0;
             double altura = 0;
@@ -34,9 +33,7 @@ namespace EJERCICIO_I06
                 Console.WriteLine("INGRESE EL NUMERO A CALCULAR: ");
                 double.TryParse(Console.ReadLine(), out longitud);
 
-                resultado = CalculadoraDeAreas.CalcularAreaCuadrado(longitud);
-
-                Console.WriteLine($"AREA DEL RECTANGULO {resultado}");
+                Console.WriteLine($"AREA DEL RECTANGULO {CalculadoraDeAreas.CalcularAreaCuadrado(longitud)}");
             }
             else if (opcion == 2)
             {
@@ -46,9 +43,7 @@ namespace EJERCICIO_I06
                 Console.WriteLine("INGRESE LA ALTURA: ");
                 double.TryParse(Console.ReadLine(), out altura);
 
-                resultado = CalculadoraDeAreas.CalcularAreaTriangulo(baseA,altura);
-
-                Console.WriteLine($"AREA DEL TRIANGULO {resultado}");
+                Console.WriteLine($"AREA DEL TRIANGULO {CalculadoraDeAreas.CalcularAreaCuadrado(longitud)}");
             }
             else if (opcion == 3)
             {
@@ -56,9 +51,7 @@ namespace EJERCICIO_I06
                 Console.WriteLine("INGRESE EL RADIO DEL CIRCULO: ");
                 double.TryParse(Console.ReadLine(), out radio); 
 
-                resultado = CalculadoraDeAreas.CalcularAreaCirculo(radio);
-
-                Console.WriteLine($"AREA DEL CIRCULO {resultado}");
+                Console.WriteLine($"AREA DEL CIRCULO {CalculadoraDeAreas.CalcularAreaCuadrado(longitud)}");
             }
 
         }

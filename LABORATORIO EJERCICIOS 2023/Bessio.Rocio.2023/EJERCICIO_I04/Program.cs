@@ -22,8 +22,7 @@ namespace EJERCICIO_I04
         static void Main(string[] args)
         {
             int numero1 = 0;
-            int numero2 = 0;
-            int resultado = 0;
+            int numero2 = 0; 
             string operacion = "";
 
             Console.WriteLine("INGRESE EL PRIMER NUMERO: ");
@@ -34,9 +33,8 @@ namespace EJERCICIO_I04
 
             Console.WriteLine("INGRESE LA OPERACION QUE DESEA REALIZAR (+,-,/,*): ");
             operacion = Console.ReadLine();
-            resultado = Calculadora.Calcular(numero1,numero2,operacion);
 
-            Console.WriteLine($"RESULTADO {resultado}");
+            Console.WriteLine($"RESULTADO {Calculadora.Calcular(numero1, numero2, operacion)}");
         }
     }
 }
