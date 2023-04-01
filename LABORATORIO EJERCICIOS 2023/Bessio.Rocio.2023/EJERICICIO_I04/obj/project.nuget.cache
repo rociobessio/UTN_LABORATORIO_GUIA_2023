@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DL0j6muae3oT45qaHQ1hy25UkIvWGTjrI1oMaOnVDTumnlIEEQR25CxUsdUiyctu/SfmraG+w5k6y1BhcNHrzw==",
-  "success": false,
+  "dgSpecHash": "fw57Wb4Kw6111DPrNzG7L1P4TZJlJ1MjwEl/c6AP0IHFBKmpPoEbMuLQiq0kOgUrU4zKUnhrFHpdL1Per++bhg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\EJERICICIO_I04\\EJERICICIO_I04.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  EJERICICIO_I04 -> UNIDAD 03 ENTIDADES -> UNIDAD 03 ENTIDADES.",
-      "libraryId": "UNIDAD 03 ENTIDADES",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  "logs": []
 }

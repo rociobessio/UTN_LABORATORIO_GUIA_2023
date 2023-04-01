@@ -1,0 +1,1 @@
+﻿public enum SistemaOperativo { IOS,ANDROID}

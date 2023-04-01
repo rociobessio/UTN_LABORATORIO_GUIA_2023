@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BIBLIOTECA DE CLASES (EL DISPOSITIVO)/1.0.0": {
+        "runtime": {
+          "BIBLIOTECA DE CLASES (EL DISPOSITIVO).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BIBLIOTECA DE CLASES (EL DISPOSITIVO)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,1 @@
+﻿public enum Especie { Roedor, Felino, Reptil, Ave, Peces, Perro, Araña}

@@ -1,5 +1,4 @@
-﻿using System.Runtime.Intrinsics.X86;
-using UNIDAD_03;
+﻿using System.Runtime.Intrinsics.X86; 
 using UNIDAD_03_ENTIDADES;
 
 namespace EJERICICIO_I04

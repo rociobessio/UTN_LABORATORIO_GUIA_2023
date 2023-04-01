@@ -1,5 +1,6 @@
 ﻿using UNIDAD_03_ENTIDADES;
 
+
 namespace EJERCICIO_I02_V
 {
     internal class Program

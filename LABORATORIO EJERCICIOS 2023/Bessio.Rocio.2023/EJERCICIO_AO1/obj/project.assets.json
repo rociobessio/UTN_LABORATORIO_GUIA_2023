@@ -2,11 +2,21 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "UNIDAD 02 ENTIDADES/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UNIDAD 02 ENTIDADES.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UNIDAD 02 ENTIDADES.dll": {}
+        }
+      },
       "UNIDAD 03 ENTIDADES/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "UNIDAD 03 ENTIDADES": "1.0.0"
+          "UNIDAD 02 ENTIDADES": "1.0.0"
         },
         "compile": {
           "bin/placeholder/UNIDAD 03 ENTIDADES.dll": {}
@@ -18,10 +28,15 @@
     }
   },
   "libraries": {
+    "UNIDAD 02 ENTIDADES/1.0.0": {
+      "type": "project",
+      "path": "../UNIDAD 02 ENTIDADES/UNIDAD 02 ENTIDADES.csproj",
+      "msbuildProject": "../UNIDAD 02 ENTIDADES/UNIDAD 02 ENTIDADES.csproj"
+    },
     "UNIDAD 03 ENTIDADES/1.0.0": {
       "type": "project",
-      "path": "../UNIDAD 03/UNIDAD 03 ENTIDADES.csproj",
-      "msbuildProject": "../UNIDAD 03/UNIDAD 03 ENTIDADES.csproj"
+      "path": "../UNIDAD 03 ENTIDADES/UNIDAD 03 ENTIDADES.csproj",
+      "msbuildProject": "../UNIDAD 03 ENTIDADES/UNIDAD 03 ENTIDADES.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -56,8 +71,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\UNIDAD 03\\UNIDAD 03 ENTIDADES.csproj": {
-              "projectPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\UNIDAD 03\\UNIDAD 03 ENTIDADES.csproj"
+            "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\UNIDAD 03 ENTIDADES\\UNIDAD 03 ENTIDADES.csproj": {
+              "projectPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\UNIDAD 03 ENTIDADES\\UNIDAD 03 ENTIDADES.csproj"
             }
           }
         }
@@ -90,16 +105,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  EJERCICIO_AO1 -> UNIDAD 03 ENTIDADES -> UNIDAD 03 ENTIDADES.",
-      "libraryId": "UNIDAD 03 ENTIDADES",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }

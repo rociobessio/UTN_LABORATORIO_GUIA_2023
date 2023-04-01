@@ -1,5 +1,4 @@
-﻿using UNIDAD_03;
-using UNIDAD_03_ENTIDADES;
+﻿using UNIDAD_03_ENTIDADES;
 
 namespace EJERCICIO_I03
 {

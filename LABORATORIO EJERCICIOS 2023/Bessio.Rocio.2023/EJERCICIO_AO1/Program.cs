@@ -1,4 +1,4 @@
-﻿using UNIDAD_03;
+﻿using UNIDAD_03_ENTIDADES;
 
 namespace EJERCICIO_AO1
 {
@@ -6,7 +6,12 @@ namespace EJERCICIO_AO1
     {
         static void Main(string[] args)
         {
-            Conductores conductor1 = new Conductores(3,"Jose Mariano",new double[100]);
+            List<int> listkms1  = new List<int>();
+            listkms1.Add(200);
+            listkms1.Add(599);
+            listkms1.Add(899);
+
+            Conductores conductor1 = new Conductores(3,"Jose Mariano",listkms1);
 
             Console.WriteLine(conductor1.Mostrar());
         }
