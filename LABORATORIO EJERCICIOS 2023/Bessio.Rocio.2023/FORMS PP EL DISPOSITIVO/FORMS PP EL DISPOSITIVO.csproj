@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BIBLIOTECA DE CLASES (EL DISPOSITIVO)\BIBLIOTECA DE CLASES (EL DISPOSITIVO).csproj" />
+    <ProjectReference Include="..\BIBLIOTECA DE CLASES (EL DISPOSITIVO)\BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).csproj" />
   </ItemGroup>
 
 </Project>

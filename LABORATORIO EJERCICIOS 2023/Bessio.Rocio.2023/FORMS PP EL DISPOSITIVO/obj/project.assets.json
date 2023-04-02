@@ -2,28 +2,28 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "BIBLIOTECA DE CLASES (EL DISPOSITIVO)/1.0.0": {
+      "BIBLIOTECA DE CLASES PP (EL DISPOSITIVO)/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "compile": {
-          "bin/placeholder/BIBLIOTECA DE CLASES (EL DISPOSITIVO).dll": {}
+          "bin/placeholder/BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).dll": {}
         },
         "runtime": {
-          "bin/placeholder/BIBLIOTECA DE CLASES (EL DISPOSITIVO).dll": {}
+          "bin/placeholder/BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).dll": {}
         }
       }
     }
   },
   "libraries": {
-    "BIBLIOTECA DE CLASES (EL DISPOSITIVO)/1.0.0": {
+    "BIBLIOTECA DE CLASES PP (EL DISPOSITIVO)/1.0.0": {
       "type": "project",
-      "path": "../BIBLIOTECA DE CLASES (EL DISPOSITIVO)/BIBLIOTECA DE CLASES (EL DISPOSITIVO).csproj",
-      "msbuildProject": "../BIBLIOTECA DE CLASES (EL DISPOSITIVO)/BIBLIOTECA DE CLASES (EL DISPOSITIVO).csproj"
+      "path": "../BIBLIOTECA DE CLASES (EL DISPOSITIVO)/BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).csproj",
+      "msbuildProject": "../BIBLIOTECA DE CLASES (EL DISPOSITIVO)/BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "BIBLIOTECA DE CLASES (EL DISPOSITIVO) >= 1.0.0"
+      "BIBLIOTECA DE CLASES PP (EL DISPOSITIVO) >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +53,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\BIBLIOTECA DE CLASES (EL DISPOSITIVO)\\BIBLIOTECA DE CLASES (EL DISPOSITIVO).csproj": {
-              "projectPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\BIBLIOTECA DE CLASES (EL DISPOSITIVO)\\BIBLIOTECA DE CLASES (EL DISPOSITIVO).csproj"
+            "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\BIBLIOTECA DE CLASES (EL DISPOSITIVO)\\BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).csproj": {
+              "projectPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\BIBLIOTECA DE CLASES (EL DISPOSITIVO)\\BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).csproj"
             }
           }
         }
