@@ -21,6 +21,7 @@ namespace UNIDAD_03_ENTIDADES
 
         #region CONSTRUCTOR
         /// <summary>
+        /// Constructor parametrizado.
         /// Me permite inicializar todos los atributos.
         /// </summary>
         /// <param name="titular"></param>
@@ -34,7 +35,7 @@ namespace UNIDAD_03_ENTIDADES
 
         #region METODOS
         /// <summary>
-        /// Retorna cadena de txto con los datos de la cuenta.
+        /// Retorna una cadena de txto con los datos de la cuenta.
         /// </summary>
         /// <returns></returns>
         public string Mostrar()
@@ -53,17 +54,18 @@ namespace UNIDAD_03_ENTIDADES
         public bool Ingresar(float montoNuevo)
         {
             bool pudoAgregar = true;
-            if (Validador.Validar((int)montoNuevo, 0, 100000))
+            if (Validador.Validar((int)montoNuevo, 0, 100000))//Reutilizo validador
             {
                 this.cantidad += montoNuevo;
             }
             else
                 pudoAgregar = false;
+            
             return pudoAgregar;
         }
 
         /// <summary>
-        /// Recibe un monto para debitar de la cuent.
+        /// Recibe un monto para debitar de la cuenta.
         /// Puede quedar en negativo.
         /// </summary>
         /// <param name="montonRetirar"></param>

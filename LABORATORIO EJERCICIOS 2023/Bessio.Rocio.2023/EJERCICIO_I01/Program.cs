@@ -11,7 +11,7 @@ namespace EJERCICIO_I01
     {
         static void Main(string[] args)
         {
-            Cuenta cuenta1 = new Cuenta("MARTIN RODRIGUEZ",8910);
+            Cuenta cuenta1 = new Cuenta("Esteban Quito",8910);
 
             Console.WriteLine("DATOS DE LA CUENTA: ");
             Console.WriteLine(cuenta1.Mostrar());
