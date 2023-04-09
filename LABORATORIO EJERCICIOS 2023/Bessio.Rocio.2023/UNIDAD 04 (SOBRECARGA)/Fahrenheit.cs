@@ -9,9 +9,10 @@ namespace UNIDAD_04__SOBRECARGA_
     public class Fahrenheit
     {
         #region ATRIBUTO
-        private int valor;
-
+        private int valor; 
         #endregion
+
+        public int GetValor { get { return this.valor; } }
 
         #region CONSTRUCTOR
         /// <summary>

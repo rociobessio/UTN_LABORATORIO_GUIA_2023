@@ -12,6 +12,8 @@ namespace UNIDAD_04__SOBRECARGA_
         private int valor; 
         #endregion
 
+        public int GetValor { get { return this.valor; } }
+
         #region CONSTRUCTOR
         public Kelvin(int valor)
         {
