@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +17,8 @@ namespace UNIDAD_04__SOBRECARGA_
         #region PROPIEDADES
         public static double GetCotizacion() { return cotzRespectoDolar; } 
         public double GetCantidad() { return this.cantidad; }
+
+        static double SetCotizacion { set { cotzRespectoDolar = value; } }
         #endregion
 
         #region CONSTRUCTORES

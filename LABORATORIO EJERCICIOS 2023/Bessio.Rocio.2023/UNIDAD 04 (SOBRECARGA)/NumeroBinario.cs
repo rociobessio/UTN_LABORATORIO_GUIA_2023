@@ -79,6 +79,8 @@ namespace UNIDAD_04__SOBRECARGA_
 
         /// <summary>
         /// El operador + suma el binario (Decimal a binario) y el numero decimal
+        /// Con el numeroDecimal llamo al metodo DecimalABinario, con el casteo exolicito
+        /// lo que hago es pasar el binario a decimal y luego sumo los numeros.
         /// </summary>
         /// <param name="numeroDecimal"></param>
         /// <param name="numeroBinario"></param>

@@ -16,7 +16,9 @@ namespace UNIDAD_04__SOBRECARGA_
 
         #region PROPIEDADES
         public static double GetCotizacion()  { return cotzRespectoDolar;  }
-        public double GetCantidad() { return this.cantidad; } 
+        public double GetCantidad() { return this.cantidad; }
+
+        static double SetCotizacion { set { cotzRespectoDolar = value; } }
         #endregion
 
         #region CONSTRUCTORES
