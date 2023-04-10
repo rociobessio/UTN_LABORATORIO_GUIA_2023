@@ -21,7 +21,7 @@ namespace UNIDAD_04__SOBRECARGA_
         /// Único constructor privado (recibe un parámetro de tipo string).
         /// </summary>
         /// <param name="cadena"></param>
-        private NumeroBinario(string cadena)
+        public NumeroBinario(string cadena)
         {
             this.numero = cadena;
         }

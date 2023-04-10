@@ -17,7 +17,7 @@ namespace UNIDAD_04__SOBRECARGA_
         #endregion
 
         #region CONSTRUCTOR
-        private NumeroDecimal(double numero)
+        public NumeroDecimal(double numero)
         {
             this.numero = numero;       
         }

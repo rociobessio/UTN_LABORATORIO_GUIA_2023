@@ -248,6 +248,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.CornflowerBlue;
             ClientSize = new Size(1043, 274);
             Controls.Add(pictureBox1);
             Controls.Add(btnConvertKelvin);
