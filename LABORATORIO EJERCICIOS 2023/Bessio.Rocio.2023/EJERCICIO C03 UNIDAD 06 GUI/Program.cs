@@ -11,7 +11,7 @@ namespace EJERCICIO_C03_UNIDAD_06_GUI
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new FrmExpendedora());
+            Application.Run(new FrmMenu());
         }
     }
 }

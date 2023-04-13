@@ -8,6 +8,7 @@ namespace EJERCICIO_C03_UNIDAD_06_GUI
     {
         #region ATRIBUTOS
         SoundPlayer soundPlayer;
+        SoundPlayer soundPlayerVendingMachine;
         FrmAddCliente frmAddCliente;
 
         Dictionary<int, Stack<Producto>> maquinaExpendedora;
@@ -33,6 +34,7 @@ namespace EJERCICIO_C03_UNIDAD_06_GUI
         public FrmExpendedora()
         {
             InitializeComponent();
+            this.StartPosition = FormStartPosition.CenterScreen;
 
             #region INSTANCIO PRODUCTOS 
             nukaKolaPremium = new Stack<Producto>();
@@ -148,7 +150,8 @@ namespace EJERCICIO_C03_UNIDAD_06_GUI
             soundPlayer = new SoundPlayer();
             soundPlayer.SoundLocation = "C:/Users/Rocio/Desktop/C#/EJERCICIOS 2023/UTN_LABORATORIO_GUIA_2023/LABORATORIO EJERCICIOS 2023/Bessio.Rocio.2023/Imagenes-Iconos-Sonidos/SuperMario.wav";
             frmAddCliente = new FrmAddCliente();
-            
+            soundPlayerVendingMachine = new SoundPlayer();
+            soundPlayerVendingMachine.SoundLocation = "C:/Users/Rocio/Desktop/C#/EJERCICIOS 2023/UTN_LABORATORIO_GUIA_2023/LABORATORIO EJERCICIOS 2023/Bessio.Rocio.2023/Imagenes-Iconos-Sonidos/cashSound.wav";
             #endregion
         }
 
@@ -159,7 +162,6 @@ namespace EJERCICIO_C03_UNIDAD_06_GUI
             this.Text = "La simpsonita";
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
 
             this.tbIngresoNumero.Enabled = false;//Para que no ingrese nada en el textbox
@@ -320,7 +322,7 @@ namespace EJERCICIO_C03_UNIDAD_06_GUI
 
                         this.lblInformacionExpendedora.Text = ($"{clienteAtendido} eligió el producto: {productoSeleccionado.Nombre}" +
                                 $" - ${productoSeleccionado.Precio} - {productoSeleccionado.Codigo}");
-
+                        soundPlayerVendingMachine.Play();
                         filaClientes.Dequeue();//Quito al primer cliente de la fila, Cada cliente atendido debe ser borrado de la cola
                     }
                 }
