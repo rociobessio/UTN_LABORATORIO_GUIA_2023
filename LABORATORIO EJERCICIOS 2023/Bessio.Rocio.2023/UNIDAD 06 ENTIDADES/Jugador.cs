@@ -1,5 +1,5 @@
 ﻿
-
+using System.Runtime.InteropServices;
 using System.Text;
 
 namespace UNIDAD_06_ENTIDADES
@@ -7,11 +7,34 @@ namespace UNIDAD_06_ENTIDADES
     public class Jugador
     {
         #region ATRIBUTOS
-        private int dni;
-        private string nombre;
-        private int partidosJugados;
-        private float promedioGoles;
-        private int totalGoles;
+        private int _dni;
+        private string _nombre;
+        private int _partidosJugados;
+        private int _totalGoles;
+        #endregion
+
+        #region PROPIEDADES (encapsulamientp)
+        /// <summary>
+        /// Propiedad de lectura.
+        /// </summary>
+        public int PartidosJugados { get { return this._partidosJugados; } }
+        /// <summary>
+        /// Propiedad de lectura
+        /// </summary>
+        public int TotalGoles { get { return this._totalGoles; } }
+        /// <summary>
+        /// Propiedad de lectura.
+        /// Se quita el metodo GetPromedio() y se calcula dentro de la propiedad
+        /// </summary>
+        public float PromedioGoles { get { return (float)this._totalGoles / this._partidosJugados; } }
+        /// <summary>
+        /// Propiedad de lectura y escritura.
+        /// </summary>
+        public int Dni { get { return this._dni; } set { this._dni = value; } }
+        /// <summary>
+        /// Propiedad de lectura y escritura.
+        /// </summary>
+        public string Nombre { get { return this._nombre; } set { this._nombre = value; } }   
         #endregion
 
         #region CONSTRUCTORES
@@ -21,23 +44,22 @@ namespace UNIDAD_06_ENTIDADES
         /// </summary>
         private Jugador()
         {
-            this.partidosJugados = 0;
-            this.promedioGoles = 0;
-            this.totalGoles = 0;
+            this._partidosJugados = 0; 
+            this._totalGoles = 0;
         }
 
         public Jugador(int dni, string nombre)
             :this ()
         {
-            this.nombre = nombre;
-            this.dni = dni; 
+            this._nombre = nombre;
+            this._dni = dni; 
         }
 
         public Jugador(int dni, string nombre,int totalGoles,int totalPartidos)
             : this(dni,nombre)
         {
-            this.totalGoles=totalGoles;
-            this.partidosJugados = totalPartidos;
+            this._totalGoles=totalGoles;
+            this._partidosJugados = totalPartidos;
         }
         #endregion
 
@@ -46,10 +68,10 @@ namespace UNIDAD_06_ENTIDADES
         /// El promedio de gol sólo se calculará cuando invoquen al método GetPromedioGoles.
         /// </summary>
         /// <returns></returns>
-        public float GetPromdioGoles()
-        {
-            return (float)this.totalGoles / this.partidosJugados;
-        }
+        //public float GetPromdioGoles()
+        //{
+        //    return (float)this._totalGoles / this._partidosJugados;
+        //}
 
         /// <summary>
         /// MostrarDatos retornará una cadena de string con todos los datos y estadísticas del jugador.
@@ -58,8 +80,8 @@ namespace UNIDAD_06_ENTIDADES
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine($"DNI: {this.dni} - NOMBRE: {this.nombre} - TOTAL GOLES: {this.totalGoles}");
-            sb.AppendLine($"PARTIDOS JUGADOS: {this.partidosJugados} - PROMEDIO GOLES: {this.GetPromdioGoles()}");
+            sb.AppendLine($"DNI: {this._dni} - NOMBRE: {this._nombre} - TOTAL GOLES: {this._totalGoles}");
+            sb.AppendLine($"PARTIDOS JUGADOS: {this._partidosJugados} - PROMEDIO GOLES: {this.PromedioGoles}");
             return sb.ToString();
         }
         #endregion
@@ -75,7 +97,7 @@ namespace UNIDAD_06_ENTIDADES
         {
             bool sonIguales = false;
             if (j1 is not null && j2 is not null)
-                sonIguales = (j1.dni == j2.dni);
+                sonIguales = (j1._dni == j2._dni);
             return sonIguales;
         }
 
