@@ -14,6 +14,8 @@ namespace EJERCICIO_C01_UNIDAD_06
             Jugador jugador4 = new Jugador(33,"Luciana",2,6);
             Jugador jugador5 = new Jugador(44, "Lorenzo", 12, 6);
 
+
+
             //Uso las sobrecargas
             if (equipo + jugador1)//Agrega
             {

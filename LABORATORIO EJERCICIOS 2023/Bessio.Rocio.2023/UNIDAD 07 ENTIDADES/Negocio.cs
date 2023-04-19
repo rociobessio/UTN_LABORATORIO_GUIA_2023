@@ -15,7 +15,7 @@ namespace UNIDAD_07_ENTIDADES
         #endregion
 
         #region PROPIEDADES
- /// <summary>
+        /// <summary>
         /// a propiedad Cliente retornará el próximo cliente en la cola de atención en el get. 
         /// El set deberá controlar que el Cliente no figure en la cola de atención, caso contrario lo agregará.
         /// </summary>

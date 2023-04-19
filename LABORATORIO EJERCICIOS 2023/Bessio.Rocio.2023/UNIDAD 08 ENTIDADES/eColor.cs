@@ -1,0 +1,1 @@
+﻿public enum Color { Rojo, Blanco, Azul, Gris, Negro }
