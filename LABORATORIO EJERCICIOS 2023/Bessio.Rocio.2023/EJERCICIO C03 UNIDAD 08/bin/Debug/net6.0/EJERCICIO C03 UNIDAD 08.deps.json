@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EJERCICIO C03 UNIDAD 08/1.0.0": {
+        "runtime": {
+          "EJERCICIO C03 UNIDAD 08.dll": {}
+        }
+      },
+      "ENTIDADES LA CENTRALITA/1.0.0": {
+        "runtime": {
+          "ENTIDADES LA CENTRALITA.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EJERCICIO C03 UNIDAD 08/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ENTIDADES LA CENTRALITA/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
