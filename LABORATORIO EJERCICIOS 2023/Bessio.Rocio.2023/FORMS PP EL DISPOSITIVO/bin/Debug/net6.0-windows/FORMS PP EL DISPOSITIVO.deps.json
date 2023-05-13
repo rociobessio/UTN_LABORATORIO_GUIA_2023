@@ -11,9 +11,9 @@
           "FORMS PP EL DISPOSITIVO.dll": {}
         }
       },
-      "BIBLIOTECA DE CLASES (EL DISPOSITIVO)/1.0.0": {
+      "BIBLIOTECA DE CLASES PP (EL DISPOSITIVO)/1.0.0": {
         "runtime": {
-          "BIBLIOTECA DE CLASES (EL DISPOSITIVO).dll": {}
+          "BIBLIOTECA DE CLASES PP (EL DISPOSITIVO).dll": {}
         }
       }
     }
@@ -24,7 +24,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "BIBLIOTECA DE CLASES (EL DISPOSITIVO)/1.0.0": {
+    "BIBLIOTECA DE CLASES PP (EL DISPOSITIVO)/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

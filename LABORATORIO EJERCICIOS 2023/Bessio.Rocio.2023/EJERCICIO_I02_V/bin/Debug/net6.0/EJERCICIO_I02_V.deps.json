@@ -15,14 +15,6 @@
         "runtime": {
           "UNIDAD 02 ENTIDADES.dll": {}
         }
-      },
-      "UNIDAD 03 ENTIDADES/1.0.0": {
-        "dependencies": {
-          "UNIDAD 02 ENTIDADES": "1.0.0"
-        },
-        "runtime": {
-          "UNIDAD 03 ENTIDADES.dll": {}
-        }
       }
     }
   },
@@ -33,11 +25,6 @@
       "sha512": ""
     },
     "UNIDAD 02 ENTIDADES/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "UNIDAD 03 ENTIDADES/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

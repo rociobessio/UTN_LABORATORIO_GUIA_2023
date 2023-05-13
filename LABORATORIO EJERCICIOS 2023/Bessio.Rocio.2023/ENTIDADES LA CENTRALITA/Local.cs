@@ -20,7 +20,7 @@ namespace ENTIDADES_LA_CENTRALITA
         /// La propiedad CostoLlamada retornará el precio,
         /// que se calculará en el método CalcularCosto.
         /// </summary>
-        public float Costo { get { return this.CalcularCosto(); } }
+        public override float CostoLlamada { get { return this.CalcularCosto(); } }
         #endregion
 
         #region CONSTRUCTORES
@@ -55,15 +55,20 @@ namespace ENTIDADES_LA_CENTRALITA
         /// <summary>
         /// Método Mostrar retornará como texto todos los datos de la clase base y agregará el costo de la llamada.
         /// Utilizar StringBuilder.
+        /// 
+        /// CENTRALITA II: 
+        /// Sobrescribir el método Mostrar. Será protegido. 
+        /// Reutilizará el código escrito en la clase base y además agregará la propiedad 
+        /// CostoLlamada, utilizando un StringBuilder.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("|----------------------|");
-            sb.AppendLine("|    LLAMADA LOCAL     |");
-            sb.AppendLine("|----------------------|");
-            sb.AppendLine($"{base.Mostrar()} - COSTO: {this._costo}");
+            sb.AppendLine("\n\t\t|----------------------------------|\t");
+            sb.AppendLine("\t\t|            LLAMADA LOCAL        |\t");
+            sb.AppendLine("\t\t|----------------------------------|\t");
+            sb.AppendLine($"{base.Mostrar()}\nCOSTO: {this.CostoLlamada}");
             return sb.ToString();   
         }
 
@@ -77,6 +82,35 @@ namespace ENTIDADES_LA_CENTRALITA
         private float CalcularCosto()
         {
             return base.Duracion * this._costo;
+        }
+        #endregion
+
+        #region POLIMORFISMO
+        /// <summary>
+        /// CENTRALITA II:
+        /// El método ToString reutilizará el código del método Mostrar.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+
+        /// <summary>
+        /// CENTRALITA II:
+        /// El método Equals retornará true sólo si el objeto que recibe es de tipo Local.
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            bool esEqual = false;
+            //si el obj no es nulo y es del tipo Local
+            if (obj is not null && obj is Local)
+            {
+                esEqual = true;
+            }
+            return esEqual;
         }
         #endregion
     }

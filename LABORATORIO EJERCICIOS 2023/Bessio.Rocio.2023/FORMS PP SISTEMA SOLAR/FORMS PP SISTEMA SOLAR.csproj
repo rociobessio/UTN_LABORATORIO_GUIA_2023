@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>FORMS_PP_SISTEMA_SOLAR</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BIBLIOTECA DE CLASES PP (SISTEMA SOLAR)\BIBLIOTECA DE CLASES PP (SISTEMA SOLAR).csproj" />
+  </ItemGroup>
+
+</Project>

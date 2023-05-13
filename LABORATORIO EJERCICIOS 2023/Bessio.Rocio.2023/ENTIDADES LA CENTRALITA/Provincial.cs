@@ -13,7 +13,7 @@ namespace ENTIDADES_LA_CENTRALITA
         #endregion
 
         #region PROPIEDADES
-        public float CostoLlamada { get { return this.CalcularCosto(); } }
+        public override float CostoLlamada { get { return this.CalcularCosto(); } }
         #endregion
 
         #region CONSTRUCTORES
@@ -34,14 +34,18 @@ namespace ENTIDADES_LA_CENTRALITA
         /// <summary>
         /// Método Mostrar retornará como texto todos los datos de la clase base y agregará el costo de la llamada y la franja horaria.
         /// Utilizar StringBuilder.
+        /// 
+        /// CENTRALITA II:
+        /// El método Mostrar será protegido. Reutilizará el código escrito en la clase base y agregará los datos de franjaHoraria y 
+        /// CostoLlamada al texto de retorno. Utilizar StringBuilder.
         /// </summary>
         /// <returns></returns>
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("|----------------------|");
-            sb.AppendLine("|  LLAMADA PROVINCIAL  |");
-            sb.AppendLine("|----------------------|");
+            sb.AppendLine("\n\t\t|-----------------------------------|\t");
+            sb.AppendLine("\t\t|     LLAMADA PROVINCIAL      |\t");
+            sb.AppendLine("\t\t|-----------------------------------|\t");
             sb.AppendLine($"{base.Mostrar()} - COSTO: {this.CostoLlamada} - FRANJA HORARIA: {this.franjaHoraria}");
             return sb.ToString();
         }
@@ -69,6 +73,33 @@ namespace ENTIDADES_LA_CENTRALITA
                 break;
             }
             return costoLlamadaFinal * base.Duracion;
+        }
+        #endregion
+
+        #region POLIMORFISMO
+        /// <summary>
+        /// CENTRALITA II:
+        /// El método ToString reutilizará el código del método Mostrar.
+        /// </summary>
+        /// <returns></returns>
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
+
+        /// <summary>
+        /// El método Equals retornará true sólo si el objeto que recibe es de tipo Provincial
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
+        public override bool Equals(object obj)
+        {
+            bool esIgual = false;
+            if (!(obj is null) && obj is Provincial)
+            {
+                esIgual = true;
+            }
+            return esIgual;
         }
         #endregion
 

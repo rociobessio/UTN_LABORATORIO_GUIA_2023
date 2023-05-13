@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+        "runtime": {
+          "UNIDAD 10 ENTIDADES - EXCEPCIONES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

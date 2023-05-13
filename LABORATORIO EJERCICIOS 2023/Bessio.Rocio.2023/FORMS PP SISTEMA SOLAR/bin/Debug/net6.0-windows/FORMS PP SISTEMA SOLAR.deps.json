@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FORMS PP SISTEMA SOLAR/1.0.0": {
+        "runtime": {
+          "FORMS PP SISTEMA SOLAR.dll": {}
+        }
+      },
+      "BIBLIOTECA DE CLASES PP (SISTEMA SOLAR)/1.0.0": {
+        "runtime": {
+          "BIBLIOTECA DE CLASES PP (SISTEMA SOLAR).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FORMS PP SISTEMA SOLAR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BIBLIOTECA DE CLASES PP (SISTEMA SOLAR)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

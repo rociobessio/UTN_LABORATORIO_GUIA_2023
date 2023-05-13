@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EJERCICIO C01 UNIDAD 04/1.0.0": {
+        "runtime": {
+          "EJERCICIO C01 UNIDAD 04.dll": {}
+        }
+      },
+      "UNIDAD 04 ENTIDADES/1.0.0": {
+        "runtime": {
+          "UNIDAD 04 ENTIDADES.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EJERCICIO C01 UNIDAD 04/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UNIDAD 04 ENTIDADES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -11,7 +11,15 @@
           "EJERCICIO_A02.dll": {}
         }
       },
+      "UNIDAD 02 ENTIDADES/1.0.0": {
+        "runtime": {
+          "UNIDAD 02 ENTIDADES.dll": {}
+        }
+      },
       "UNIDAD 03 ENTIDADES/1.0.0": {
+        "dependencies": {
+          "UNIDAD 02 ENTIDADES": "1.0.0"
+        },
         "runtime": {
           "UNIDAD 03 ENTIDADES.dll": {}
         }
@@ -20,6 +28,11 @@
   },
   "libraries": {
     "EJERCICIO_A02/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UNIDAD 02 ENTIDADES/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
