@@ -34,5 +34,10 @@ namespace UNIDAD_08_ENTIDADES
             this._cilindrada = cilindrada;
         }
         #endregion
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }

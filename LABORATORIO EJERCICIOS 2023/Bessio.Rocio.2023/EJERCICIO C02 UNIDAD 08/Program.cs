@@ -13,20 +13,34 @@ namespace EJERCICIO_C02_UNIDAD_08
             AutoF1 auto3 = new AutoF1(18, "Ferrari",8090);//igual auto1 
             AutoF1 auto4 = new AutoF1(13, "McLaren",5432);
             AutoF1 auto5 = new AutoF1(08, "Aston Martin",1892);
+            MotoCross moto = new MotoCross(09,"Audi");
 
-            if (competenciaFormula1 + auto1)
+            try
             {
-                Console.WriteLine(competenciaFormula1.MostrarDatos());
-            } 
 
-            if (competenciaFormula1 + auto3)//No se deberia de mostrar es igual a autoF1
-            {
-                Console.WriteLine(competenciaFormula1.MostrarDatos());
+                if (competenciaFormula1 + auto1)
+                {
+                    Console.WriteLine(competenciaFormula1.MostrarDatos());
+                }
+
+                if (competenciaFormula1 + auto3)//No se deberia de mostrar es igual a autoF1
+                {
+                    Console.WriteLine(competenciaFormula1.MostrarDatos());
+                }
+
+                if (competenciaFormula1 + auto2)
+                {
+                    Console.WriteLine(competenciaFormula1.MostrarDatos());
+                }
+
+                if (competenciaFormula1 + moto)
+                {
+                    Console.WriteLine(competenciaFormula1.MostrarDatos());
+                }
             }
-
-            if (competenciaFormula1 + auto2)
+            catch(Exception ex)
             {
-                Console.WriteLine(competenciaFormula1.MostrarDatos());
+                Console.WriteLine(ex.ToString());
             }
 
             //if (competenciaFormula1 + auto4)

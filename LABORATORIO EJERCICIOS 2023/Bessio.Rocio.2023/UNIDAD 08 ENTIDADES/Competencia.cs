@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using UNIDAD_10_ENTIDADES___EXCEPCIONES;
 
 namespace UNIDAD_08_ENTIDADES
 {
@@ -140,6 +141,10 @@ namespace UNIDAD_08_ENTIDADES
                     competencia._competidores.Remove(vehiculoDeCarrera);//Metodo Remove(), lo saco de la lista
                     saco =  true;
                 }
+                else
+                {
+                    throw new CompetenciaNoDisponibleException("El vehiculo no corresponde a la competencia", "Competencia", "Sobrecarga +", null);
+                }
             }
             return saco;
         }
@@ -160,15 +165,25 @@ namespace UNIDAD_08_ENTIDADES
             bool pudoAgregar = false;
             if(competencia is not null && vehiculoDeCarrera is not null)
             {
-                if (competencia._competidores.Count < competencia._cantidadCompetidoes && competencia != vehiculoDeCarrera)
+                if (competencia._competidores.Count < competencia._cantidadCompetidoes)
                 {
-                    competencia._competidores.Add(vehiculoDeCarrera);//Lo añado a la lista
-                    vehiculoDeCarrera.EnCompetencia = true;//el competidor cambiará su estado enCompetencia a verdadero
-                    vehiculoDeCarrera.VueltasRestantes = competencia._cantidadVueltas;//la cantidad de vueltasRestantes será igual a la cantidadVueltas de Competencia
-                    Random random = new Random();
-                    vehiculoDeCarrera.CantidadCombustible = (short)random.Next(15, 100);//se le asignará un número aleatorio entre 15 y 100 a cantidadCombustible
-                    
-                    pudoAgregar = true;
+                    try
+                    {
+                        if (competencia != vehiculoDeCarrera)
+                        { 
+                            competencia._competidores.Add(vehiculoDeCarrera);//Lo añado a la lista
+                            vehiculoDeCarrera.EnCompetencia = true;//el competidor cambiará su estado enCompetencia a verdadero
+                            vehiculoDeCarrera.VueltasRestantes = competencia._cantidadVueltas;//la cantidad de vueltasRestantes será igual a la cantidadVueltas de Competencia
+                            Random random = new Random();
+                            vehiculoDeCarrera.CantidadCombustible = (short)random.Next(15, 100);//se le asignará un número aleatorio entre 15 y 100 a cantidadCombustible
+
+                            pudoAgregar = true;
+                        }
+                    }
+                    catch(CompetenciaNoDisponibleException ex)
+                    {
+                        throw new Exception("Competencia incorrecta",ex);
+                    }
                 } 
             }
             return pudoAgregar; 

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>EJERCICIO_I01_UNIDAD_12</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UNIDAD 12 ENTIDADES - GENERICS\UNIDAD 12 ENTIDADES - GENERICS.csproj" />
+  </ItemGroup>
+
+</Project>

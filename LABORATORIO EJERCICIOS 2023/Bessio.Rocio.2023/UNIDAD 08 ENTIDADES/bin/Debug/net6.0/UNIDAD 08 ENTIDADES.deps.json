@@ -10,11 +10,21 @@
         "runtime": {
           "UNIDAD 08 ENTIDADES.dll": {}
         }
+      },
+      "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+        "runtime": {
+          "UNIDAD 10 ENTIDADES - EXCEPCIONES.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "UNIDAD 08 ENTIDADES/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -71,6 +71,10 @@ namespace ENTIDADES_LA_CENTRALITA
         /// CENTRALITA II:
         /// El operador + invocará al método AgregarLlamada sólo si la llamada no está 
         /// registrada en la Centralita. Utilizar la sobrecarga del operador == de Centralita.
+        /// 
+        /// CENTRALITA III:
+        /// En el operador + de Centralita, lanzar la excepción CentralitaException en el de que la
+        /// llamada se encuentre registrada en el sistema.
         /// </summary>
         /// <param name="centralita"></param>
         /// <param name="nuevaLlamada"></param>
@@ -78,11 +82,18 @@ namespace ENTIDADES_LA_CENTRALITA
         public static Centralita operator +(Centralita centralita, Llamada nuevaLlamada)
         {
             //Utilizo la sobrecarga del !=, si no esta llamo a agregarLlamada.
-            //No verifico si es null o del tipo que recibo ya que lo hace la sobrecarga
-             if(centralita != nuevaLlamada)
-             {
-                centralita.AgregarLlamada(nuevaLlamada);
-             }
+            //No verifico si es null o del tipo que recibo ya que lo hace la sobrecarga 
+            try
+            {
+                if (!centralita.Llamadas.Contains(nuevaLlamada))
+                {
+                    centralita.AgregarLlamada(nuevaLlamada);
+                }
+            }
+            catch
+            { 
+                throw new CentralitaException("Llamada ya existente", "Centralita", "Sobrecarga +");
+            }  
             return centralita;
         }
         #endregion

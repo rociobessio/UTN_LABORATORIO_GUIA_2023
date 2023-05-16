@@ -5,11 +5,24 @@
       "UNIDAD 08 ENTIDADES/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "UNIDAD 10 ENTIDADES - EXCEPCIONES": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/UNIDAD 08 ENTIDADES.dll": {}
         },
         "runtime": {
           "bin/placeholder/UNIDAD 08 ENTIDADES.dll": {}
+        }
+      },
+      "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UNIDAD 10 ENTIDADES - EXCEPCIONES.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UNIDAD 10 ENTIDADES - EXCEPCIONES.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../UNIDAD 08 ENTIDADES/UNIDAD 08 ENTIDADES.csproj",
       "msbuildProject": "../UNIDAD 08 ENTIDADES/UNIDAD 08 ENTIDADES.csproj"
+    },
+    "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+      "type": "project",
+      "path": "../UNIDAD 10 ENTIDADES - EXCEPCIONES/UNIDAD 10 ENTIDADES - EXCEPCIONES.csproj",
+      "msbuildProject": "../UNIDAD 10 ENTIDADES - EXCEPCIONES/UNIDAD 10 ENTIDADES - EXCEPCIONES.csproj"
     }
   },
   "projectFileDependencyGroups": {

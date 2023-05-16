@@ -27,6 +27,6 @@ namespace UNIDAD_08_ENTIDADES
             this.cantidadPuertas = cantidadPuertas;
             this.color = color;
         }
-        #endregion
+        #endregion 
     }
 }

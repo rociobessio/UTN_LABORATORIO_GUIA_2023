@@ -51,7 +51,7 @@ namespace EJERCICIO_C01_UNIDAD_09
             ////Si la llamada es provincial cb pasa a ser disabled
             this.cbFranja.Enabled = false;
             this.cbFranja.DataSource = Enum.GetValues(typeof(Provincial.Franja));// Lectura
-            //Desabilito los botones
+            //Deshabilito los botones
             this.btnLlamar.Enabled = false;
             this.btnLimpiar.Enabled = false;
         }

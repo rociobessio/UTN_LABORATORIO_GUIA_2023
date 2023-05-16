@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/UNIDAD 10 ENTIDADES - EXCEPCIONES.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UNIDAD 10 ENTIDADES - EXCEPCIONES.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "UNIDAD 10 ENTIDADES - EXCEPCIONES/1.0.0": {
+      "type": "project",
+      "path": "../UNIDAD 10 ENTIDADES - EXCEPCIONES/UNIDAD 10 ENTIDADES - EXCEPCIONES.csproj",
+      "msbuildProject": "../UNIDAD 10 ENTIDADES - EXCEPCIONES/UNIDAD 10 ENTIDADES - EXCEPCIONES.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "UNIDAD 10 ENTIDADES - EXCEPCIONES >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Rocio\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\UNIDAD 10 ENTIDADES - EXCEPCIONES\\UNIDAD 10 ENTIDADES - EXCEPCIONES.csproj": {
+              "projectPath": "C:\\Users\\Rocio\\Desktop\\C#\\EJERCICIOS 2023\\UTN_LABORATORIO_GUIA_2023\\LABORATORIO EJERCICIOS 2023\\Bessio.Rocio.2023\\UNIDAD 10 ENTIDADES - EXCEPCIONES\\UNIDAD 10 ENTIDADES - EXCEPCIONES.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

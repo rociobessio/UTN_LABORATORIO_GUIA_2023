@@ -38,6 +38,14 @@ namespace UNIDAD_10_ENTIDADES___EXCEPCIONES
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"Excepcion del metodo {this._nombreMetodo} de la clase {this._nombreClase}");
+            sb.AppendLine($"{Message}");//-->agregamos el mensaje propio de la excepción
+
+            var innerExcepcion = InnerException;
+            while (innerExcepcion != null)
+            {
+                sb.AppendLine("\t" + innerExcepcion.Message);
+                innerExcepcion = innerExcepcion.InnerException;
+            }
             return sb.ToString();
         }
     }
