@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Archivos_Explicacion/1.0.0": {
+        "runtime": {
+          "Archivos_Explicacion.dll": {}
+        }
+      },
+      "ENTIDADES ARCHIVOS/1.0.0": {
+        "runtime": {
+          "ENTIDADES ARCHIVOS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Archivos_Explicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ENTIDADES ARCHIVOS/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,18 @@
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\Archivos_Explicacion.exe
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\Archivos_Explicacion.deps.json
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\Archivos_Explicacion.runtimeconfig.json
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\Archivos_Explicacion.dll
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\Archivos_Explicacion.pdb
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\ENTIDADES ARCHIVOS.dll
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\bin\Debug\net6.0\ENTIDADES ARCHIVOS.pdb
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.csproj.AssemblyReference.cache
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.AssemblyInfoInputs.cache
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.AssemblyInfo.cs
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.csproj.CoreCompileInputs.cache
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.csproj.CopyComplete
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.dll
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\refint\Archivos_Explicacion.dll
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.pdb
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\Archivos_Explicacion.genruntimeconfig.cache
+C:\Users\Rocio\Desktop\C#\EJERCICIOS 2023\UTN_LABORATORIO_GUIA_2023\LABORATORIO EJERCICIOS 2023\Bessio.Rocio.2023\Archivos_Explicacion\obj\Debug\net6.0\ref\Archivos_Explicacion.dll
